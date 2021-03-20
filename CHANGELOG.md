@@ -70,3 +70,9 @@
 - minor fixes
 - organized code better
 - NULL SAFETY
+
+## 1.1.6-nullsafety.0: Null Safety Update!
+
+- minor fixes
+- optimization
+- is in line with *Pub.dev's* policies
