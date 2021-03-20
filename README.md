@@ -4,8 +4,6 @@
 
 *A Dart package for numeric encryption/decryption and binary encryption/decryption! :lock:*
 
-*NULL-SAFE!*
-
 ## About :books:
 
 Harpo is a small library to numerically decrypt/encrypt letters, words, and phrases! Harpo is written in Dart and I thought I'd practise some Dart.
