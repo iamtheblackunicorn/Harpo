@@ -28,7 +28,7 @@ dependencies:
 ```YAML
 dependencies:
   ...
-  harpo: ^1.1.5
+  harpo: ^1.1.6-nullsafety.0
 ```
 
 The three dots represent anything else that you might have in the `dependencies` section.
@@ -46,12 +46,6 @@ Import the numeric encryption like this:
 
 ```dart
 import 'package:harpo/harpo.dart';
-```
-
-To import the binary encryption use this:
-
-```dart
-import 'package:harpo/binary.dart';
 ```
 
 #### API for numeric encryption
