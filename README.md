@@ -42,7 +42,7 @@ $ dart pub get
 
 ### Importing
 
-Import the numeric encryption like this:
+Import all functions like this:
 
 ```dart
 import 'package:harpo/harpo.dart';
