@@ -87,3 +87,9 @@
 
 - minor fixes
 - updated documentation
+
+## Version 2.0.0: Hexadecimal Update!
+
+- minor improvements
+- conversion between hexadecimals and decimal numbers
+- speed improvements

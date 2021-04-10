@@ -1,6 +1,6 @@
 name: harpo
 description: A set of functions for numeric encryption and decryption. This is also a practical implementation of my algorithms for encryption and decrpytion.
-version: 1.2.0-nullsafety.0
+version: 2.0.0
 homepage: https://github.com/iamtheblackunicorn/Harpo
 environment:
   sdk: '>=2.12.0 <3.0.0'

@@ -26,7 +26,7 @@ int hexToDec(String hexNumber){
 /// Test function for converting
 /// hexadecimals to decimal numbers.
 void testHexToDec(){
-  String hex = '100';
+  String hex = 'FA';
   var result = hexToDec(hex);
   print('$hex => $result');
 }
@@ -34,19 +34,33 @@ void testHexToDec(){
 /// Convert a decimal number
 /// into a hexadecimal number.
 String decToHex(int decimalNumber){
-  String result = 'hello';
+  int base = 16;
+  int dec = decimalNumber;
+  String digitSetString = '0123456789ABCDEF';
+  List<String> digitSet = digitSetString.split('');
+  List<String> resultList = [];
+  int startingIndex = dec%base;
+  String startingChar = digitSet[startingIndex];
+  resultList.add(startingChar);
+  while ((dec~/base) != 0) {
+    dec = dec~/base;
+    print(dec);
+    String res = digitSet[dec];
+    resultList.add(res);
+  }
+  List<String> finalResult = new List.from(resultList.reversed);
+  String result = finalResult.join('');
   return result;
 }
 
 /// Test function for converting
-/// decimal numbers into hexadecimals.
+/// decimals to hexadecimal numbers.
 void testDecToHex(){
-  int decimalNumber = 256;
-  String result = decToHex(decimalNumber);
+  int decimalNumber = 4080;
+  var result = decToHex(decimalNumber);
   print('$decimalNumber => $result');
 }
 
 void main(){
-  testHexToDec();
-  //testDecToHex();
+  testDecToHex();
 }
