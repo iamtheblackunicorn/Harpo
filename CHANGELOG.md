@@ -88,8 +88,13 @@
 - minor fixes
 - updated documentation
 
-## Version 2.0.0: Hexadecimal Update!
+## Version 2.0.0: Hexadecimal Update Pt. I
 
 - minor improvements
 - conversion from hex numbers to decimal numbers
 - speed improvements
+
+## Version 2.1.0: Hexadecimal Update Pt. II
+
+- minor fixes
+- pedantic fix

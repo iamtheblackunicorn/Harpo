@@ -13,7 +13,7 @@ int hexToDec(String hexNumber) {
   String digitSetString = '0123456789ABCDEF';
   List<String> digitSet = digitSetString.split('');
   List<String> hexCharsBase = hexNumber.split('');
-  List<String> hexChars = new List.from(hexCharsBase.reversed);
+  List<String> hexChars = List.from(hexCharsBase.reversed);
   for (int i = 0; i < hexChars.length; i++) {
     String hexChar = hexChars[i];
     if (digitSet.contains(hexChar) == true) {

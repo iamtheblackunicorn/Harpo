@@ -28,7 +28,7 @@ dependencies:
 ```YAML
 dependencies:
   ...
-  harpo: ^2.0.0
+  harpo: ^2.1.0
 ```
 
 The three dots represent anything else that you might have in the `dependencies` section.
