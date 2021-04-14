@@ -91,5 +91,5 @@
 ## Version 2.0.0: Hexadecimal Update!
 
 - minor improvements
-- conversion between hexadecimals and decimal numbers
+- conversion from hex numbers to decimal numbers
 - speed improvements

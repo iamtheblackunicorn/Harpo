@@ -22,4 +22,5 @@ import 'package:harpo/harpo.dart';
 void main() {
   testAll();
   testAllBinary();
+  testHexToDec();
 }
