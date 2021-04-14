@@ -47,8 +47,7 @@ Import all functions like this:
 ```dart
 import 'package:harpo/harpo.dart';
 ```
-
 ## Note :scroll:
 
-- *Harpo* :lock: by Alexander Abraham :black_heart: a.k.a. *The Black Unicorn* :unicorn:
-- licensed under the MIT license
+- *Harpo :lock:* by Alexander Abraham :black_heart: a.k.a. *"The Black Unicorn" :unicorn:*
+- Licensed under the MIT license.
