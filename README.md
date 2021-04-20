@@ -1,6 +1,6 @@
 # Harpo :lock:
 
-[![Build Status](https://travis-ci.com/iamtheblackunicorn/Harpo.svg?branch=main)](https://travis-ci.com/iamtheblackunicorn/Harpo)
+[![GitHub CI](https://github.com/iamtheblackunicorn/harpo/actions/workflows/dart.yml/badge.svg)](https://github.com/iamtheblackunicorn/harpo/actions)
 
 *A Dart package for numeric encryption/decryption and binary encryption/decryption! :lock:*
 
