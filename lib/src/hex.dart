@@ -44,7 +44,7 @@ String decToHex(int dec) {
     if (digit > base) {
       nums.add(digit.toString());
     } else {
-      if (digit > 9){
+      if (digit > 9) {
         nums.add(alphabet[digit - 1]);
       } else {
         nums.add(digit.toString());
