@@ -3,6 +3,8 @@ Harpo by Alexander Abraham
 licensed under the MIT license
 */
 
+import 'dart:math';
+
 /// Convert numbers of any base to
 /// decimal numbers. A custom base
 /// and alphabet need to be fed into
