@@ -161,7 +161,7 @@ String decryptWordHex(int factor, String encryptedWord) {
   List<String> decryptedChars = [];
   List<String> charList = encryptedWord.split('|');
   for (var i = 0; i < charList.length; i++) {
-    String result = decryptLetterHexadecimal(factor, charList[i]);
+    String result = decryptLetterHex(factor, charList[i]);
     decryptedChars.add(result);
   }
   String newlyDecryptedString = decryptedChars.join('');
@@ -183,7 +183,7 @@ String encryptPhraseHex(int factor, String phrase) {
 
 /// This function does to phrases what their counterparts
 /// do to words. Only in hexadecimal.
-String decryptPhraseBinary(int factor, String encryptedPhrase) {
+String decryptPhraseHex(int factor, String encryptedPhrase) {
   List<String> decryptedWords = [];
   List<String> wordList = encryptedPhrase.split('=>');
   for (var i = 0; i < wordList.length; i++) {
