@@ -23,4 +23,5 @@ void main() {
   testAll();
   testAllBinary();
   testHexToDec();
+  testWildCard();
 }

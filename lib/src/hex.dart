@@ -41,13 +41,12 @@ String decToHex(int dec) {
   while (remainder > base) {
     digit = dec ~/ base;
     remainder = dec - (digit * base);
-    if (digit > 16){
+    if (digit > base) {
       nums.add(digit.toString());
-    }
-    else {
+    } else {
       nums.add(alphabet[digit - 1]);
     }
-    if (remainder > 16) {
+    if (remainder > base) {
     } else {
       nums.add(alphabet[remainder - 1]);
       break;
@@ -62,7 +61,6 @@ String decToHex(int dec) {
 void testHexToDec() {
   String hex = 'FA';
   int result = hexToDec(hex);
-
   print('$hex => $result');
   print('$result => ${decToHex(result)}');
 }
