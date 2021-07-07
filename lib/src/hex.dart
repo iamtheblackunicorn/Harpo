@@ -7,7 +7,7 @@ import 'dart:math';
 
 /// Convert hexadecimals to
 /// decimal numbers.
-int hexToDec(String hexNumber) {
+String hexToDec(String hexNumber) {
   int base = 16;
   int result = 0;
   String digitSetString = '0123456789ABCDEF';
@@ -25,7 +25,7 @@ int hexToDec(String hexNumber) {
       throw 'Illegal character found!';
     }
   }
-  return result;
+  return result.toString();
 }
 
 /// This function converts
