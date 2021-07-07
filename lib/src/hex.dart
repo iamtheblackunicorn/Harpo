@@ -41,7 +41,12 @@ String decToHex(int dec) {
   while (remainder > base) {
     digit = dec ~/ base;
     remainder = dec - (digit * base);
-    nums.add(digit.toString());
+    if (digit > 16){
+      nums.add(digit.toString());
+    }
+    else {
+      nums.add(alphabet[digit - 1]);
+    }
     if (remainder > 16) {
     } else {
       nums.add(alphabet[remainder - 1]);
