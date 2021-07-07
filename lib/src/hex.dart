@@ -31,20 +31,20 @@ int hexToDec(String hexNumber) {
 /// This function converts
 /// numbers of base 10 into
 /// numbers of base 16.
-String decToHex(int dec){
+String decToHex(int dec) {
   String result = '';
   int base = 16;
   List<String> nums = [];
   List<String> alphabet = '123456789ABCDEF'.split('');
   int digit = 0;
   int remainder = base + 1;
-  while (remainder > base){
-    digit = dec~/base;
+  while (remainder > base) {
+    digit = dec ~/ base;
     remainder = dec - (digit * base);
     nums.add(digit.toString());
-    if (remainder > 16) {}
-    else {
-      nums.add(alphabet[remainder-1]);
+    if (remainder > 16) {
+    } else {
+      nums.add(alphabet[remainder - 1]);
       break;
     }
   }
@@ -57,7 +57,7 @@ String decToHex(int dec){
 void testHexToDec() {
   String hex = 'FA';
   int result = hexToDec(hex);
-  
+
   print('$hex => $result');
   print('$result => ${decToHex(result)}');
 }
