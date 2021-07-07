@@ -2,7 +2,7 @@
 
 [![GitHub CI](https://github.com/iamtheblackunicorn/harpo/actions/workflows/dart.yml/badge.svg)](https://github.com/iamtheblackunicorn/harpo/actions)
 
-*A Dart package for numeric encryption/decryption and binary encryption/decryption! :lock:*
+*A Dart package for numeric encryption/decryption and binary & hexadecimal encryption/decryption! :lock:*
 
 ## About :books:
 
@@ -28,7 +28,7 @@ dependencies:
 ```YAML
 dependencies:
   ...
-  harpo: ^2.1.0
+  harpo: ^2.2.0
 ```
 
 The three dots represent anything else that you might have in the `dependencies` section.

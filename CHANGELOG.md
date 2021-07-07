@@ -98,3 +98,9 @@
 
 - minor fixes
 - pedantic fix
+
+## Version 2.2.0: The Hexadecimal Update
+
+- added a function to convert base 10 numbers into hexadecimal numbers
+- added the corresponding encryption/decryption function
+- minor polishes here and there
