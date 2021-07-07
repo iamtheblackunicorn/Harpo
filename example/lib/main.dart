@@ -21,6 +21,8 @@ import 'package:harpo/harpo.dart';
 
 void main() {
   testAll();
+  print('\n');
   testAllBinary();
+  print('\n');
   testAllHex();
 }
